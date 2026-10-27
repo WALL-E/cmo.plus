@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Next.js build output
+.next/
+out/
+build/
+
+# TypeScript (auto-generated)
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment variables (keep .env.example committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# restart.sh runtime files
+.restart.pid
+
+# npm lockfile — this project uses pnpm (see package.json packageManager)
+package-lock.json
+
+# Vercel / v0 sandbox internal files
+.vercel/
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.design-cache/
+.v0-trash/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
